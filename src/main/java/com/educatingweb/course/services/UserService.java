@@ -23,4 +23,8 @@ public class UserService {
 		return repository.findById(id);
 	}
 
+	public User insert(User obj) {
+		return repository.save(obj);
+	}
+
 }
