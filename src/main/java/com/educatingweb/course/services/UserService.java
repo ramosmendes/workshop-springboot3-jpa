@@ -20,7 +20,8 @@ public class UserService {
 	}
 
 	public Optional<User> findById(Long id) {
-		return repository.findById(id);
+		Optional<User> obj = repository.findById(id);
+		return obj.orElseThrow(() -> new ResourceNotFoundException(id));
 	}
 
 	public User insert(User obj) {
