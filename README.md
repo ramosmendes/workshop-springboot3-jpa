@@ -1,8 +1,8 @@
 # 🚀 WorkShop Spring
 
-# 🧠 Explanation of the project
+# 🧠 Explicações do Projeto:
 
-A spring web application related to a fictitious workshop
+Um workshop ficcional utilizando o grande universo java e spring. Divirtam-se 
 
 **dependências:**
 - spring-boot-starter-web
